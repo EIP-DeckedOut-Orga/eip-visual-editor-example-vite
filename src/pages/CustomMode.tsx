@@ -14,7 +14,7 @@ import { VisualEditorWorkspace, EditorMode, EditorAPI, CanvasExport } from '@dec
 export default function CustomMode() {
   const [canvasData, setCanvasData] = useState<CanvasExport | null>(null)
   const [isSaving, setIsSaving] = useState(false)
-  const saveTimerRef = useRef<NodeJS.Timeout | null>(null)
+  const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   // Define a custom mode for card design
   const cardDesignerMode: EditorMode = {
     name: 'Card Designer',
