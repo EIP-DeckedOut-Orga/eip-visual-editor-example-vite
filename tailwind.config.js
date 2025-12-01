@@ -4,8 +4,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    // Scan the parent package source for Tailwind classes
-    "../src/**/*.{js,ts,jsx,tsx}",
+    // Point to installed package
+    "./node_modules/@deckedout/visual-editor/dist/**/*.{js,mjs}",
   ],
   theme: {
     extend: {
