@@ -2,6 +2,10 @@
 
 A complete example demonstrating how to integrate `@deckedout/visual-editor` into a Vite + React application.
 
+## 🌐 Live Demo
+
+The app is published at: [https://eip-visual-editor-example-vite--deckedout.replit.app/](https://eip-visual-editor-example-vite--deckedout.replit.app/)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
