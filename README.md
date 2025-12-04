@@ -17,22 +17,22 @@ The app is published at: [https://eip-visual-editor-example-vite--deckedout.repl
 ### Installation
 
 1. **Build the main package** (from the root directory):
+
    ```bash
    cd ..
    npm install
    npm run build
    ```
-
 2. **Install dependencies** (in this directory):
+
    ```bash
    npm install
    ```
-
 3. **Start the development server**:
+
    ```bash
    npm run dev
    ```
-
 4. Open your browser to `http://localhost:3000`
 
 ## 📁 Project Structure
@@ -57,7 +57,9 @@ example-vite/
 ## 🎯 Examples Included
 
 ### 1. Basic Editor (`/`)
+
 The simplest integration showing default editor functionality:
+
 - All panels enabled (toolbar, topbar, inspector, layers)
 - Default canvas size
 - Snap guides enabled
@@ -81,7 +83,9 @@ export default function BasicEditor() {
 ```
 
 ### 2. Custom Mode (`/custom-mode`)
+
 Demonstrates advanced customization:
+
 - Custom canvas size (750×1050 for card design)
 - Custom toolbar with "Load Template" button
 - Custom topbar with "Export PNG" button
@@ -89,13 +93,16 @@ Demonstrates advanced customization:
 - Mode lifecycle hooks
 
 Key features:
+
 - **Custom canvas dimensions** for specific use cases
 - **Custom toolbar actions** that manipulate the editor
 - **Custom topbar controls** for additional functionality
 - **Grid and snap settings** for precise layout
 
 ### 3. With Assets (`/with-assets`)
+
 Shows asset management with file upload:
+
 - Asset picker panel enabled
 - Mock game assets provided
 - **Background upload button** - Upload custom backgrounds
@@ -105,6 +112,7 @@ Shows asset management with file upload:
 - Grid overlay
 
 Perfect for:
+
 - Game asset management with custom uploads
 - Dynamic asset libraries
 - User-provided content
@@ -225,6 +233,7 @@ const assets = [
 ### Module not found: '@deckedout/visual-editor'
 
 **Solution**: Build the parent package first:
+
 ```bash
 cd ..
 npm run build
@@ -239,6 +248,7 @@ npm install
 ### Vite dev server issues
 
 **Solution**: Clear node_modules and reinstall:
+
 ```bash
 rm -rf node_modules package-lock.json
 npm install
@@ -246,15 +256,9 @@ npm install
 
 ## 📚 Additional Resources
 
-- [Main Package Documentation](../README.md)
-- [API Reference](../API_REFERENCE.md)
 - [TypeScript Examples](../examples/)
 - [Package on npm](https://www.npmjs.com/package/@deckedout/visual-editor)
 
 ## 🤝 Contributing
 
 This example is part of the `@deckedout/visual-editor` package. For contributions, please refer to the main package repository.
-
-## 📄 License
-
-Same as the parent package - see [LICENSE](../LICENSE).
