@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/dev/visual-editor/playground">
       <div className="app">
         <nav className="nav">
           <div className="nav-container">
